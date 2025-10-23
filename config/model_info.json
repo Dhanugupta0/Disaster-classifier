@@ -1,0 +1,45 @@
+{
+  "model_name": "Disaster Classifier ResNet50",
+  "version": "1.0",
+  "classes": ["cyclone", "earthquake", "flood", "wildfire"],
+  "num_classes": 4,
+  "input_shape": [224, 224, 3],
+  "image_size": 224,
+  "architecture": "ResNet50",
+  "preprocessing": "resnet_preprocess_input",
+  "normalization": "[-1, 1]",
+  "training_accuracy": 0.98,
+  "validation_accuracy": 0.975,
+  "test_accuracy": 0.8775,
+  "test_metrics": {
+    "accuracy": 0.8775,
+    "auc": 0.9602,
+    "precision": 0.8797,
+    "recall": 0.8775,
+    "loss": 0.6581
+  },
+  "class_performance": {
+    "cyclone": {
+      "precision": 0.93,
+      "recall": 0.88,
+      "f1_score": 0.90
+    },
+    "earthquake": {
+      "precision": 0.82,
+      "recall": 0.97,
+      "f1_score": 0.89
+    },
+    "flood": {
+      "precision": 0.97,
+      "recall": 0.75,
+      "f1_score": 0.85
+    },
+    "wildfire": {
+      "precision": 0.83,
+      "recall": 0.91,
+      "f1_score": 0.87
+    }
+  },
+  "training_date": "2025-10-23",
+  "framework": "TensorFlow/Keras"
+}

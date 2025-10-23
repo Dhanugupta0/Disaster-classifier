@@ -1,0 +1,14 @@
+{
+  "classes": [
+    "cyclone",
+    "earthquake",
+    "flood",
+    "wildfire"
+  ],
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "best_val_acc": 0.9775000214576721
+}

@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dataset folders - EXCLUDE ALL DATASETS
+Dataset/
+dataset/
+data/
+
+# Model files (large) - ALL MODEL FORMATS
+model/
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.weights
+*.weights.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.mlmodel
+checkpoints/
+*.data-*
+*.index
+fingerprint.pb
+saved_model.pb
+variables/
+
+# Deployment folder - EXCLUDE ENTIRE FOLDER
+disaster_classifier_deployment/
+
+# Deployment model folder
+deployment/model/
+
+# Environment
+.env
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Logs
+logs/
+tensorboard/
+*.log
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
